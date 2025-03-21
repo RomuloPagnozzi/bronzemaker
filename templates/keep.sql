@@ -1,0 +1,1 @@
+{column_name} AS {column_name}

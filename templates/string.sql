@@ -1,0 +1,1 @@
+CASE WHEN TRIM({column_name}) = '' THEN NULL ELSE TRIM({column_name}) END AS {column_name}
