@@ -132,8 +132,8 @@ class CLIManager:
             except ValueError:
                 print("Please enter a valid number.")
         
-        # Create table
-        print(f"\nCreating table: {dataset_id}.{table_id}...")
+        # Create bronze view
+        print(f"\nCreating bronze view for table: {dataset_id}.{table_id}...")
         success, result = self.table_creator.create_table(dataset_id, table_id)
         
         if success:
